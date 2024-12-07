@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE9ED1DF2CF253BE003A5199 /* ToDoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9ED1DE2CF253BE003A5199 /* ToDoModel.swift */; };
 		CEB014E62CEEF4EF0098AB19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB014E52CEEF4EF0098AB19 /* AppDelegate.swift */; };
 		CEB014E82CEEF4EF0098AB19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB014E72CEEF4EF0098AB19 /* SceneDelegate.swift */; };
-		CEB014EA2CEEF4EF0098AB19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB014E92CEEF4EF0098AB19 /* ViewController.swift */; };
+		CEB014EA2CEEF4EF0098AB19 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB014E92CEEF4EF0098AB19 /* ToDoTableViewController.swift */; };
 		CEB014ED2CEEF4EF0098AB19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB014EB2CEEF4EF0098AB19 /* Main.storyboard */; };
 		CEB014EF2CEEF4F10098AB19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB014EE2CEEF4F10098AB19 /* Assets.xcassets */; };
 		CEB014F22CEEF4F10098AB19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB014F02CEEF4F10098AB19 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE9ED1DE2CF253BE003A5199 /* ToDoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoModel.swift; sourceTree = "<group>"; };
 		CEB014E22CEEF4EF0098AB19 /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB014E52CEEF4EF0098AB19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEB014E72CEEF4EF0098AB19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CEB014E92CEEF4EF0098AB19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEB014E92CEEF4EF0098AB19 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 		CEB014EC2CEEF4EF0098AB19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEB014EE2CEEF4F10098AB19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEB014F12CEEF4F10098AB19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,13 +58,14 @@
 		CEB014E42CEEF4EF0098AB19 /* ToDo */ = {
 			isa = PBXGroup;
 			children = (
+				CEB014EB2CEEF4EF0098AB19 /* Main.storyboard */,
 				CEB014E52CEEF4EF0098AB19 /* AppDelegate.swift */,
 				CEB014E72CEEF4EF0098AB19 /* SceneDelegate.swift */,
-				CEB014E92CEEF4EF0098AB19 /* ViewController.swift */,
-				CEB014EB2CEEF4EF0098AB19 /* Main.storyboard */,
+				CEB014E92CEEF4EF0098AB19 /* ToDoTableViewController.swift */,
 				CEB014EE2CEEF4F10098AB19 /* Assets.xcassets */,
 				CEB014F02CEEF4F10098AB19 /* LaunchScreen.storyboard */,
 				CEB014F32CEEF4F10098AB19 /* Info.plist */,
+				CE9ED1DE2CF253BE003A5199 /* ToDoModel.swift */,
 			);
 			path = ToDo;
 			sourceTree = "<group>";
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEB014EA2CEEF4EF0098AB19 /* ViewController.swift in Sources */,
+				CEB014EA2CEEF4EF0098AB19 /* ToDoTableViewController.swift in Sources */,
+				CE9ED1DF2CF253BE003A5199 /* ToDoModel.swift in Sources */,
 				CEB014E62CEEF4EF0098AB19 /* AppDelegate.swift in Sources */,
 				CEB014E82CEEF4EF0098AB19 /* SceneDelegate.swift in Sources */,
 			);
@@ -300,6 +304,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,6 +333,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
